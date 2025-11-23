@@ -1,0 +1,44 @@
+{
+    "How do I configure automations in Hiver?": {
+        "retrieved": [
+            {
+                "doc_id": "automations.md",
+                "chunk_id": 0,
+                "similarity": 0.6550629734992981
+            },
+            {
+                "doc_id": "tags.md",
+                "chunk_id": 0,
+                "similarity": 0.5235910415649414
+            },
+            {
+                "doc_id": "slas.md",
+                "chunk_id": 0,
+                "similarity": 0.49129968881607056
+            }
+        ],
+        "generated_answer": "# Automations in Hiver Automations help you streamline workflows by defining triggers and actions. ## Configure Automations 1. Go to `Settings > Automations`. 2. Create a new automation and provide a name. 3. Select a trigger (e.g., `new email`, `subject contains`, `tag applied`). 4. Add conditions to narrow scope (e.g., mailbox, sender domain). 5. Choose actions (e.g., `assign`, `apply tag`, `set status`, `add note`). 6. Save and enable the automation. ## Common Tips - Prefer explicit conditions (subject keywords, mailbox) over broad triggers. - Test with a staging mailbox before enabling in production. - Use audit logs to debug when an automation doesn\u2019t fire. ## Troubleshooting - If automations duplicate tasks, check overlapping automations that share triggers. - If delays",
+        "confidence_score": 0.5566511750221252
+    },
+    "Why is CSAT not appearing?": {
+        "retrieved": [
+            {
+                "doc_id": "csat.md",
+                "chunk_id": 0,
+                "similarity": 0.5222111344337463
+            },
+            {
+                "doc_id": "csat.md",
+                "chunk_id": 1,
+                "similarity": 0.4700818657875061
+            },
+            {
+                "doc_id": "automations.md",
+                "chunk_id": 1,
+                "similarity": 0.37379002571105957
+            }
+        ],
+        "generated_answer": "# CSAT in Hiver CSAT (Customer Satisfaction) measures satisfaction via surveys sent after resolution. ## Why CSAT Might Not Appear - CSAT feature disabled at `Settings > Analytics > CSAT`. - CSAT not included in your current plan tier. - Surveys not being triggered due to resolution status not set. - Insufficient permissions to view CSAT dashboards. - Data processing delay; wait 15\u201330 minutes. ## Enabling CSAT 1. Navigate to `Settings > Analytics > CSAT`. 2. Enable CSAT surveys and configure timing. 3. Customize survey question and rating scale. 4. Ensure agents resolve conversations to trigger surveys. ## Troubleshooting Steps - Confirm plan tier includes CSAT. - Check permissions for your role. - Verify resolution status change is applied. -",
+        "confidence_score": 0.455361008644104
+    }
+}
